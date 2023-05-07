@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+:root {
+  --blue: #1677ff;
+  --white: #ffffff;
+  --off-white: #FCFCFC;
+  --light-grayish-white:#F5F5F5;
+  --error: #ff4d4f;
+  --black: #000;
+  --font-sans: 'Source Sans Pro', sans-serif;
+
+  --light-black: rgba(0, 0, 0, 0.88);
+
+}
+.ant-carousel .slick-dots li.slick-active button {
+  background: #000000;
+  opacity: 1;
+}
+.ant-carousel .slick-dots li button {
+  color: #000;
+  background: #000;
+}
+
+body {
+  background-color: var(--light-grayish-white);
+  font-family: var(--font-sans);
+  text-transform: capitalize;
+}
+
+.ant-form-item-with-help .ant-form-item-explain {
+  text-align: left;
+}
+
+main.ant-layout-content {
+  background-color: var(--white);
+}
+
+.ant-form-item-explain-error {
+  color: var(--error);
+  padding: 10px;
+  background: var(--off-white);
+  ;
+  border-radius: 6px;
+  margin: 10px 0px;
+}
+
+
+.ant-table-tbody {
+  background-color: var(--off-white);
+  text-transform: capitalize;
+}
+
+.ant-layout-header {
+  padding-inline: 0px;
+  color: var(--light-black);
+  line-height: 50px;
+  background: var(--white);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected {
+  background-color: var(--blue);
+  color: var(--off-white)
+}
+
+.ant-table-thead>tr>th {
+  padding: 12px 8px;
+  font-size: 16px;
+}
+
+.ant-table-tbody>tr>td {
+  padding: 12px 8px;
+  font-size: 14px;
+}
+
+/*logout button*/
+.logout{
+  position: absolute!important;
+  right: 0;
+  top: 0;
+}
